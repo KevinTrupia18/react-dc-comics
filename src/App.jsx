@@ -1,6 +1,8 @@
 
 
 import MainHeader from "./components/MainHeader"
+import Hero from "./components/Hero"
+
 
 function App() {
 
@@ -8,6 +10,7 @@ function App() {
   return (
     <>
       <MainHeader />
+      <Hero />
 
     </>
   )
