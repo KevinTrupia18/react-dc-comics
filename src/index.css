@@ -57,3 +57,63 @@
 .blue-card img {
   height: 40px;
 }
+
+
+
+
+.footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  font-size: 14px;
+  color: #bdbdbd;
+  margin-bottom: 5px;
+}
+
+.footer-logo {
+  width: 300px;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.footer-bottom button {
+  border: 2px solid #0282f9;
+  background: transparent;
+  color: white;
+  padding: 10px 15px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

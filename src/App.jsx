@@ -3,7 +3,7 @@
 import MainHeader from "./components/MainHeader"
 import Hero from "./components/Hero"
 import BlueBar from "./components/BlueBar"
-
+import Footer from "./components/Footer"
 function App() {
 
 
@@ -12,6 +12,7 @@ function App() {
       <MainHeader />
       <Hero />
       <BlueBar />
+      <Footer />
 
     </>
   )
