@@ -2,7 +2,7 @@
 
 import MainHeader from "./components/MainHeader"
 import Hero from "./components/Hero"
-
+import BlueBar from "./components/BlueBar"
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
     <>
       <MainHeader />
       <Hero />
+      <BlueBar />
 
     </>
   )
