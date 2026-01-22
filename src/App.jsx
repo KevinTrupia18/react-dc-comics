@@ -1,16 +1,18 @@
 
 
 import MainHeader from "./components/MainHeader"
-import Hero from "./components/Hero"
+import ComicsSection from "./components/ComicsSection"
 import BlueBar from "./components/BlueBar"
 import Footer from "./components/Footer"
+import Jumbotron from "./components/Jumbotron"
 function App() {
 
 
   return (
     <>
       <MainHeader />
-      <Hero />
+      <Jumbotron />
+      <ComicsSection />
       <BlueBar />
       <Footer />
 

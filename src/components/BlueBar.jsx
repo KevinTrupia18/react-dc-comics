@@ -21,13 +21,13 @@ const blueItems = [
     },
 ];
 
-export default function BlueBar() {
+function BlueBar() {
     return (
-        <section className="blue-bar">
-            <div className="blue-container">
+        <section>
+            <div>
                 {blueItems.map((item, index) => (
-                    <div className="blue-card" key={index}>
-                        <img src={item.img} alt={item.text} />
+                    <div key={index}>
+                        <img src={item.img} alt="Icona servizio" />
                         <span>{item.text}</span>
                     </div>
                 ))}
@@ -35,4 +35,7 @@ export default function BlueBar() {
         </section>
     );
 }
+
+export default BlueBar;
+
 
